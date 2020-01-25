@@ -1,0 +1,63 @@
+/* font-family: 'Domine',
+serif;
+font-family: 'Roboto',
+sans-serif */
+
+.container {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+  height: 60vh;
+  width: 30vw;
+
+  margin: 10vh auto;
+  font-family: "Domine", serif;
+}
+
+.content__container {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.content__container span,
+.content__container h4 {
+  font-weight: 300;
+}
+
+.content__container h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+.img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 20rem;
+  object-fit: cover;
+  box-shadow: 0rem 2rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background-color: rgb(206, 183, 153);
+  align-self: end;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+}
