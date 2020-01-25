@@ -6,10 +6,10 @@ sans-serif */
 .container {
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
   height: 30rem;
-  width: 20rem;
+  width: 15rem;
   margin: 10vh auto;
 
   box-shadow: 0rem 2rem 5rem rgba(0, 0, 0, 0.3);
@@ -41,7 +41,7 @@ sans-serif */
 
 .footer {
   grid-column: 1 / -1;
-  background-color: rgb(206, 183, 153);
+  background-color: #d1bea8;
   align-self: end;
 }
 
@@ -57,9 +57,16 @@ sans-serif */
   list-style: none;
 }
 
-.nav__link {
+.nav__link:link,
+.nav__link:active {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   text-decoration: none;
   color: #fff;
+  transition: all 0.3s ease;
+}
+
+.nav__link:hover,
+.nav__link:visited {
+  color: #85144b;
 }
