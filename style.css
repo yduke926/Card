@@ -58,7 +58,7 @@ sans-serif */
 }
 
 .nav__link:link,
-.nav__link:active {
+.nav__link:visited {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   text-decoration: none;
@@ -67,6 +67,6 @@ sans-serif */
 }
 
 .nav__link:hover,
-.nav__link:visited {
+.nav__link:active {
   color: #85144b;
 }
